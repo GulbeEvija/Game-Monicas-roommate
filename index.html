@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica's roommate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Monica's new roommate...</h1>
+    </div>
+    <br>
+    <div class="container">
+        <button id="btnMute">Mute sound</button>
+        <button id="btnUnMute">Enable sound</button>
+    </div>
+    <br> 
+    <div class="video-container">
+        <video autoplay="autoplay" loop="loop" muted controls playsinline id="myVideo">
+            <source src="videoDecide.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <br>
+    <div class="header">
+        <h2>Who should Monica choose as her roommate?</h2>
+    </div>
+
+    <div class="btn">
+        <button id="one">Rachel</button>
+        <button id="two">Phoebe</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

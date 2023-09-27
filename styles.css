@@ -1,0 +1,49 @@
+.header, .video-container, .btn, .container {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    height: 100vh;
+
+}
+
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#one, #two {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 1px solid gray;
+    text-transform: uppercase;
+}
+
+
+#myVideo {
+    width: 900px;
+}
+
+#btnMute, #btnUnMute {
+    cursor: pointer;
+    padding: 10px 20px;
+    background:#9bd7e1;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#btnMute.clicked, #btnUnMute.clicked {
+    background-color: #D9AFD9;
+}
+
