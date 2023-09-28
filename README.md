@@ -47,7 +47,7 @@
   * when button is clicked then function gets called out
   * inside each function are written specific details via setAttribute and innerHTML
 * I had a challenge with video sound, therefore I fixed it by having two separate buttons for sound off and on
-* In the future I hope to add one button which turns sound on and off.
+* In the future I hope to add one button which turns sound on and off!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
