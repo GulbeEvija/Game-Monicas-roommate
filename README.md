@@ -9,7 +9,7 @@
 <h3 align="center">Monica's Roommate</h3>
 
   <p align="center">
-    App built with React using props and class components.
+    Game built with JavaScript by using functions as a next page
     <br />
     <br />
     <a href="https://glimmer-sudden-impatiens.glitch.me/">View project live on Glitch</a>
@@ -37,20 +37,24 @@
 </details>
 
 
-
 ## About The Project
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started: 
+* This game uses buttons to lead user from one page to another.
+* To achieve this functionality, I used:
+  * addEventListener() on each button
+  * when button is clicked then function gets called out
+  * inside each function are written specific details via setAttribute and innerHTML
+* I had a challenge with video sound, therefore I fixed it by having two separate buttons for sound off and on
+* In the future I hope to add one button which turns sound on and off.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 ### Built With
 
-* [![React][React.js]][React-url]
+* JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,23 +62,19 @@ Here's a blank template to get started:
 
 ## Getting Started
 
-`npm start`
+right click on `index.html`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+then `open with live server`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+project should be open in Chrome browser
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Useful resources to learn JavaScript:
+  * [Resource #1](https://www.w3schools.com/js/)
+  * [Resource #2](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +89,7 @@ If you have any suggestions that would make this project better, please send me 
 
 ## Contact
 
-Evija Gulbe - [LinkedIn](https://www.linkedin.com/in/evija-gulbe-534673240/) - evija.gulbe@outlook.com
+Evija Gulbe - [LinkedIn](https://www.linkedin.com/in/evija-gulbe-534673240/)
 
 Project Link: [https://github.com/GulbeEvija/Game-Monicas-roommate/](https://github.com/GulbeEvija/Game-Monicas-roommate/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,6 +104,5 @@ Project provided by [CanSheCode](https://edu-canshecode.thinkific.com/)
 
 
 [product-screenshot]: friendsImage.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+
 
